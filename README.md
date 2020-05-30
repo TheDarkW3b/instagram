@@ -2,7 +2,10 @@
 
 Its Source Of [@instagramRobot](https://t.me/instagramRobot) .This Bot Helps In Downloading __Instagram Photos__ and __Videos__ Using IG Public API. For Now It Works Only For **Public Accounts**. No Login or Money Required Just send The Instagram Post Link to Bot, It Will Send Video/Photo In Return.
 
-![Instagram Logo](https://sm.ign.com/ign_in/screenshot/default/ig-glyph001-74am_dp6a.jpg)
+<p align="center">
+  <img src="https://sm.ign.com/ign_in/screenshot/default/ig-glyph001-74am_dp6a.jpg" alt="Instagram"/>
+</p>
+
 ## Requirements
 
 > python-telegram-bot
