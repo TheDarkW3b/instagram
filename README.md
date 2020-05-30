@@ -1,7 +1,8 @@
-# [Instagram Downloader](https://t.me/)
+# [Instagram Downloader](https://t.me/instagramRobot)
 
-Its Source Of [@](https://t.me/) .This Bot Helps In Downloading __Instagram Photos__ and __Videos__ Using IG Public API. For Now It Works Only For **Public Accounts**. No Login or Money Required Just send The Instagram Post Link to Bot, It Will Send Video/Photo In Return.
+Its Source Of [@instagramRobot](https://t.me/instagramRobot) .This Bot Helps In Downloading __Instagram Photos__ and __Videos__ Using IG Public API. For Now It Works Only For **Public Accounts**. No Login or Money Required Just send The Instagram Post Link to Bot, It Will Send Video/Photo In Return.
 
+![Instagram Logo](https://www.vizergy.com/files/3564/instagramAPIupdates.jpg)
 ## Requirements
 
 > python-telegram-bot
@@ -34,16 +35,15 @@ To Make Your Own Bot Using This Source. Follow Below Steps
 * Open main.py and Paste Your Bot Token in __TOKEN__ Variable
 * Download This Repo
 * On Terminal run Command
-'''
+```bash
 pip install -r requirements.txt
-'''
-'''
+
 python main.py
-'''
+```
 ---
 
 ## Credits
 
 > Its Written by [@TheDarkW3b](https://t.me/TheDarkW3b)
-> Support Group :- https://t.me/Technology_Arena
-> Channel :- https://t.me/Dark_Hacker_X
+* Support Group :- https://t.me/Technology_Arena
+* Channel :- https://t.me/Dark_Hacker_X
