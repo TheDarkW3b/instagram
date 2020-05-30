@@ -8,7 +8,7 @@ Its Source Of [@instagramRobot](https://t.me/instagramRobot) .This Bot Helps In 
 
 ## Requirements
 
-> python-telegram-bot
+> python-telegram-bot\
 > requests
 
 ---
