@@ -26,14 +26,11 @@ def download(bot, update):
     else:
         pass
     if "instagram.com" in instagram_post:
-        if instagram_post.endswith("/"):
-            pass
-        else:
-            bot.send_chat_action(chat_id=update.message.chat_id, action="typing")
-            bot.sendMessage(chat_id=update.message.chat_id, text="♨️ Link of Public Post Must End with / \nIt Should Be In Below Format \n<b>Format :-</b> https://www.instagram.com/p/B4zvXCIlNTw/ ", parse_mode=ParseMode.HTML, disable_web_page_preview=True)
-            return
-        url = instagram_post + "?__a=1"
+        changing_url = instagram_post.split("/")
+        url_code = changing_url[4]
+        url = f"https://instagram.com/p/{url_code}?__a=1"
         try:
+            global checking_video
             visit = requests.get(url).json()
             checking_video = visit['graphql']['shortcode_media']['is_video']
         except:
