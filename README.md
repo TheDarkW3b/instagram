@@ -1,6 +1,6 @@
-# [Instagram Downloader](https://t.me/instagramRobot)
+# Instagram Downloader
 
-Its Source Of [@instagramRobot](https://t.me/instagramRobot) .This Bot Helps In Downloading __Instagram Photos__ and __Videos__ Using IG Public API. For Now It Works Only For **Public Accounts**. No Login or Money Required Just send The Instagram Post Link to Bot, It Will Send Video/Photo In Return.
+Its Source Of Instagram Downloader Bot .This Bot Helps In Downloading __Instagram Photos__ and __Videos__ Using IG Public API. For Now It Works Only For **Public Accounts**. No Login or Money Required Just send The Instagram Post Link to Bot, It Will Send Video/Photo In Return.
 
 <p align="center">
   <img src="https://sm.ign.com/ign_in/screenshot/default/ig-glyph001-74am_dp6a.jpg" alt="Instagram"/>
@@ -22,6 +22,8 @@ To Make Your Own Bot Using This Source. Follow Below Steps
 
 ### Setup using Heroku
 
+> Can Cause Error, Because Instagram Blocks Heroku IP
+
 * Fork This Repo
 * Open main.py and Paste Your Bot Token in __TOKEN__ Variable
 * Make Account On Heroku.com
@@ -32,7 +34,7 @@ To Make Your Own Bot Using This Source. Follow Below Steps
 * Click Deploy, Wait Till Deployment
 * Go To Dynos, Turn It On and Check Your Bot
 
-### Locally Running On Server
+### Locally Running On Server (I Prefer This) 
 
 * Fork This Repo
 * Open main.py and Paste Your Bot Token in __TOKEN__ Variable
