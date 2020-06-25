@@ -38,7 +38,7 @@ To Make Your Own Bot Using This Source. Follow Below Steps
 
 * Fork This Repo
 * Open main.py and Paste Your Bot Token in __TOKEN__ Variable
-* Download Repo Forked Repo
+* Download Forked Repo
 * On Terminal run Command
 ```bash
 pip install -r requirements.txt
