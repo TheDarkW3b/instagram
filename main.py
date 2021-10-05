@@ -1,6 +1,6 @@
-# -*- coding: utf-8 -*-
+# by RAiZOK Instagram : 1l.a0
 # DONT_REMOVE_THIS
-#  TheDarkW3b (c)
+#  RAiZOK (c)
 
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 from telegram import ParseMode
@@ -15,14 +15,14 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
 #Logger Setup
 logger = logging.getLogger(__name__)
 
-TOKEN = "YOUR_TOKEN_HERE"
+TOKEN = "1973604050:AAFAhhz_E0LoFJf6Pk0lfenG14IMbfjUTV8"
 
 def download(bot, update):
     message = update.effective_message
     instagram_post = message.text
     if instagram_post=="/start":
         bot.send_chat_action(chat_id=update.message.chat_id, action="typing")
-        update.message.reply_text("❤️ Thanks For Using Me Just Send Me The Link In Below Format  \n🔥 Format :- https://www.instagram.com/p/B4zvXCIlNTw/ \nVideos Must Be Less Then 20MB, For Now It Cannot Support Long IGTV Videos \n\n<b>Support Group :-</b> @Technology_Arena \n<b>🌀 Source</b> \nhttps://github.com/TheDarkW3b/instagram", parse_mode=ParseMode.HTML, disable_web_page_preview=True)
+        update.message.reply_text("❤️ شكرا لاستخدامك البوت ارسل لي رابط البوست الذي تريد تحميله  \n🔥 Format :- https://www.instagram.com/p/B4zvXCIlNTw/ \nVideos Must Be Less Then 20MB, For Now It Cannot Support Long IGTV Videos \n\n<b>Support Group :-</b> @Technology_Arena \n<b>🌀 Source</b> \nhttps://github.com/TheDarkW3b/instagram", parse_mode=ParseMode.HTML, disable_web_page_preview=True)
     else:
         pass
     if "instagram.com" in instagram_post:
@@ -53,9 +53,9 @@ def download(bot, update):
                 pass
         else:
             bot.send_chat_action(chat_id=update.message.chat_id, action="typing")
-            bot.sendMessage(chat_id=update.message.chat_id, text="I Cant Send You Private Posts :-( ")
+            bot.sendMessage(chat_id=update.message.chat_id, text="لا يمكنني ان ارسل لك بوست من حساب خاص :-( ")
     else:
-        bot.sendMessage(chat_id=update.message.chat_id, text="Kindly Send Me Public Instagram Video/Photo Url")
+        bot.sendMessage(chat_id=update.message.chat_id, text="يرجى ارسال رابط فديو\صورة من حساب عام ")
 
 def main():
     updater = Updater(TOKEN)
